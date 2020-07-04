@@ -3,7 +3,8 @@ import Header from "../templates/Header";
 import Character from "../pages/Character";
 import Error404 from "../pages/Error404";
 import Home from "../pages/Home";
-
+import resolveRoute from "../utils/resolveRoute";
+import getHash from "../utils/getHash";
 
 const routes = {
   '/': Home,
