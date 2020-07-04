@@ -1,5 +1,5 @@
 const resolveRoute = (route) => {
-  if(route <= 3) {
+  if(route.length <= 3) {
       return route === '/' ? route : '/:id';
   }
   return `/${route}`;
