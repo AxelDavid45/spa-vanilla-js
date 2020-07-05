@@ -16,6 +16,6 @@ deploy:
     keep_history: true
     local_dir: dist/
     target_branch: gh-pages
-    commit_message: "
+    commit_message: "Deploy completed"
     on:
         branch: master
